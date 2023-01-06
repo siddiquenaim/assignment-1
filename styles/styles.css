@@ -66,19 +66,51 @@ ul {
     margin: 130px 85px 0 210px;
 }
 
-.failure-list-container{
+.failure-list-container {
     margin: 240px 250px 0 0;
 }
 
-.failure-title{
+.failure-title {
     font-weight: 700;
-font-size: 40px;
+    font-size: 40px;
 }
 
-.failure-desc{
+.failure-desc {
     margin-top: 24px;
     margin-bottom: 16px;
     font-weight: 400;
-font-size: 16px;
-color: #444343;
+    font-size: 16px;
+    color: #444343;
+}
+
+/* plan style */
+
+.plan-title {
+    font-weight: 700;
+    font-size: 40px;
+}
+
+.plan-container {
+    text-align: center;
+    margin-top: 130px;
+}
+
+.plan-list {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    gap: 86px;
+}
+
+.box-title {
+    font-size: 30px;
+    line-height: 35px;
+    margin-bottom: 16px;
+    margin-top: 10px;
+}
+
+.box-desc {
+    font-weight: 500;
+    font-size: 25px;
+    color: #737272;
 }
