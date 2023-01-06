@@ -117,17 +117,34 @@ ul {
 
 /* positive section styles */
 
-.positive{
+.positive {
     margin-top: 130px;
-    align-items: center;
-    text-align: center;
+    background-image: linear-gradient(to left, rgba(255, 255, 255, 0), #F15B22),
+    url('../images/watch.png');
+    background-size: 1140px 301px ;
+    background-position: 200px;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+}
+
+
+
+
+.positive-title {
+    font-weight: 700;
+    font-size: 40px;
+    padding: 100px 0 0 294px;
+    color: white;
 }
 
 .btn-secondary {
     padding: 20px 36px;
     font-weight: 600;
-font-size: 20px;
-color: #F15B22;
-border-style: none;
-border-radius: 5px;
+    font-size: 20px;
+    color: #F15B22;
+    border-style: none;
+    border-radius: 5px;
+margin-left: 294px;
+margin-top: 24px;
+    background-color: white;
 }
