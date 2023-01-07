@@ -165,7 +165,8 @@ ul {
 /* quote styles */
 
 .quote {
-    background-image: linear-gradient(to left, rgba(255, 255, 255, 0), #000000), url('./images/quote.jpg');
+    background-image: linear-gradient(to left, rgba(255, 255, 255, 0), #000000), 
+    url('../images/quote.jpg');
     background-size: cover;
     width: 100%;
     height: 100vh;
