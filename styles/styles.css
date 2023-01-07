@@ -128,9 +128,6 @@ ul {
     margin-bottom: 130px;
 }
 
-
-
-
 .positive-title {
     font-weight: 700;
     font-size: 40px;
@@ -177,17 +174,17 @@ ul {
     margin-bottom: 24px;
 }
 
-.contact-mail{
+.contact-mail {
     font-size: 16px;
     margin-bottom: 16px;
 }
 
-.contact-phone{
+.contact-phone {
     font-size: 16px;
     margin-bottom: 32px;
 }
 
-.contact-logo{
+.contact-logo {
     margin: 0 16px;
 }
 
