@@ -43,6 +43,13 @@
     margin-top: 32px;
     font-weight: 600;
     font-size: 20px;
+    transition-duration: 0.4s;
+}
+
+.btn-primary:hover {
+    background-color: rgb(250, 246, 246);
+    color: #F15B22;
+    border: 1px solid black;
 }
 
 /* failure styles */
@@ -146,7 +153,47 @@ ul {
     margin-left: 294px;
     margin-top: 16px;
     background-color: white;
+    transition-duration: 0.4s;
 }
+
+.btn-secondary:hover {
+    background-color: #fc5113;
+    color: #ffffff;
+    border: 1px solid black;
+}
+
+/* quote styles */
+
+.quote {
+    background-image: linear-gradient(to left, rgba(255, 255, 255, 0), #000000), url('/images/quote.jpg');
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    scroll-behavior: smooth;
+    background-attachment: fixed;
+}
+
+.quote-title {
+    color: #F3F3F3;
+    font-weight: 700;
+    font-size: 45px;
+    padding: 100px 0 0 120px;
+    margin-bottom: 20px;
+}
+
+.quote-container {
+    color: #F3F3F3;
+    padding: 0 0 0 120px;
+    width: 70%;
+    font-weight: 500;
+    font-size: 25px;
+    margin-top: 40px;
+}
+
+.quote-desc {
+    margin: 20px 0;
+}
+
 
 /* footer styles */
 
@@ -211,4 +258,11 @@ ul {
     font-weight: 600;
     font-size: 20px;
     margin-top: 36px;
+    transition-duration: 0.4s;
+}
+
+.btn-subscribe:hover {
+    background-color: #fc5113;
+    color: #ffffff;
+    border: 1px solid black;
 }
