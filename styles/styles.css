@@ -25,7 +25,6 @@
 .header-title {
     font-weight: 700;
     font-size: 65px;
-
     margin-bottom: 25px;
 }
 
@@ -52,7 +51,8 @@
     border: 1px solid black;
 }
 
-/* failure styles */
+/* main section styles */
+/* failure section styles */
 
 .list-icon {
     height: 13px;
@@ -162,7 +162,7 @@ ul {
     border: 1px solid black;
 }
 
-/* quote styles */
+/* quote section styles */
 
 .quote {
     background-image: linear-gradient(to left, rgba(255, 255, 255, 0), #000000), 
@@ -210,6 +210,8 @@ ul {
     padding: 130px 230px;
 }
 
+/* contact styles */
+
 .contact-title {
     font-weight: 700;
     font-size: 45px;
@@ -235,6 +237,8 @@ ul {
 .contact-logo {
     margin: 0 16px;
 }
+
+/* subscribe section styles */
 
 .sub-title {
     font-weight: 600;
