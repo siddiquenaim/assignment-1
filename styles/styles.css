@@ -83,7 +83,7 @@ ul {
     color: #444343;
 }
 
-/* plan style */
+/* plan section styles */
 
 .plan-title {
     font-weight: 700;
@@ -120,11 +120,12 @@ ul {
 .positive {
     margin-top: 130px;
     background-image: linear-gradient(to left, rgba(255, 255, 255, 0), #F15B22),
-    url('../images/watch.png');
-    background-size: 1140px 301px ;
+        url('../images/watch.png');
+    background-size: 1140px 301px;
     background-position: 200px;
     background-repeat: no-repeat;
     border-radius: 10px;
+    margin-bottom: 130px;
 }
 
 
@@ -139,12 +140,78 @@ ul {
 
 .btn-secondary {
     padding: 20px 36px;
+    margin-bottom: 30px;
     font-weight: 600;
     font-size: 20px;
     color: #F15B22;
     border-style: none;
     border-radius: 5px;
-margin-left: 294px;
-margin-top: 24px;
+    margin-left: 294px;
+    margin-top: 16px;
     background-color: white;
+}
+
+/* footer styles */
+
+.footer {
+    background-color: black;
+    color: white;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: center;
+    gap: 320px;
+    padding: 130px 230px;
+}
+
+.contact-title {
+    font-weight: 700;
+    font-size: 45px;
+    margin-bottom: 16px;
+}
+
+.contact-detail {
+    font-weight: 400;
+    font-size: 16px;
+    margin-bottom: 24px;
+}
+
+.contact-mail{
+    font-size: 16px;
+    margin-bottom: 16px;
+}
+
+.contact-phone{
+    font-size: 16px;
+    margin-bottom: 32px;
+}
+
+.contact-logo{
+    margin: 0 16px;
+}
+
+.sub-title {
+    font-weight: 600;
+    font-size: 25px;
+    margin-bottom: 32px;
+}
+
+.sub-input {
+    background-color: black;
+    color: #F3F3F3;
+    padding: 22px 160px 22px 22px;
+    border: 1px solid #FFFFFF;
+    border-radius: 8px;
+}
+
+.btn-subscribe {
+    background-color: white;
+    color: #F15B22;
+    padding: 20px 36px;
+    border-style: none;
+    border-radius: 8px;
+    font-weight: 600;
+    font-size: 20px;
+    margin-top: 36px;
 }
